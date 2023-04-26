@@ -8,7 +8,7 @@
 
 
 
-PYMUCO is an open source Python library designed for music programming.  
+Pymuco is an open source Python library designed for music programming.  
 
 Purely Pythonic 🐍 Zero dependencies
 
@@ -26,7 +26,7 @@ Getting Started
 Features
 --------
 
-PYMUCO library offers a comprehensive toolkit that includes:
+Pymuco library offers a comprehensive toolkit that includes:
 
 - Integration of theoretical musical concepts
 - Development of an autonomous notation system for computer music
@@ -36,20 +36,20 @@ PYMUCO library offers a comprehensive toolkit that includes:
 Testing
 -------
 
-To run tests for PYMUCO, you can use Python's built-in `unittest` module. Simply execute the following command:
+To run tests for Pymuco, you can use Python's built-in `unittest` module. Simply execute the following command:
 
 ```python3 -m unittest discover test```
 
 Contributions
 ---------------
 
-Contributions to PYMUCO are encouraged and can be made by forking the repository, making changes, testing, and submitting a pull request. Detailed instructions on how to contribute can be found in the [How to contribute](https://github.com/pymuco/pymuco/tree/main/doc/CONTRIBUTIONS.md) guide.
+Contributions to Pymuco are encouraged and can be made by forking the repository, making changes, testing, and submitting a pull request. Detailed instructions on how to contribute can be found in the [How to contribute](https://github.com/pymuco/pymuco/tree/main/doc/CONTRIBUTIONS.md) guide.
 
 
 Code of Conduct
 ---------------
 
-PYMUCO follows the Contributor Covenant Code of Conduct, which sets the standards for behavior and aims to create a welcoming and inclusive community. For more information, please refer to the [Contributor Covenant Code of Conduct](https://github.com/pymuco/pymuco/blob/main/CODE_OF_CONDUCT.md) file.
+Pymuco follows the Contributor Covenant Code of Conduct, which sets the standards for behavior and aims to create a welcoming and inclusive community. For more information, please refer to the [Contributor Covenant Code of Conduct](https://github.com/pymuco/pymuco/blob/main/CODE_OF_CONDUCT.md) file.
 
 
 Copyright and License Information
