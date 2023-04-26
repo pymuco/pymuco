@@ -95,27 +95,3 @@ class MusicComputationNotation:
             else:
                 raise TypeError("Invalid duration type.")
             self._notation.append((spn.spn, duration))
-
-
-# Create a new MusicNotation object
-notation = MusicComputationNotation()
-
-# Create ScientificPitchNotation objects
-C4 = ScientificPitchNotation("C", 4)
-E4 = ScientificPitchNotation("E", 4)
-G4 = ScientificPitchNotation("G", 4)
-
-# Create NoteDuration objects
-whole_note = NoteDuration("WHOLE_NOTE")
-half_note = NoteDuration(0.5)
-
-notation.add_block(C4, whole_note)
-notation.add_block(E4, half_note)
-notation.add_block(G4, whole_note)
-notation.add_block(C4, half_note)
-
-notation.add_block(
-    C4, whole_note, E4, half_note, G4, whole_note, C4, half_note
-)
-
-# print(notation.notation)

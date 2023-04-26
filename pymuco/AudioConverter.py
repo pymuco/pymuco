@@ -481,30 +481,3 @@ class AudioConverter:
                     return float(duration)
                 else:
                     return NoteDuration(duration).duration_length
-
-
-"""
-# Create a new MusicNotation object
-notation = MusicComputationNotation()
-
-# Create ScientificPitchNotation objects
-C4 = ScientificPitchNotation("C", 4)
-E4 = ScientificPitchNotation("E", 4)
-G4 = ScientificPitchNotation("G", 4)
-C5 = ScientificPitchNotation("C", 5)
-
-# Create NoteDuration objects
-whole_note = NoteDuration("WHOLE_NOTE")
-half_note = NoteDuration(0.5)
-
-notation.add_block(C4, whole_note, E4, whole_note,
-                   G4, whole_note, C5, whole_note)
-# notation.add_block(E4, whole_note)
-# notation.add_block(G4, whole_note)
-# notation.add_block(C5, whole_note)
-
-# print(notation.notation)
-
-audio = AudioConverter()
-audio.audio_converter(notation.notation)
-"""
