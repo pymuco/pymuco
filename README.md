@@ -44,7 +44,7 @@ To run tests for Pymuco, you can use Python's built-in `unittest` module. Simply
 Contributions
 ---------------
 
-Contributions to Pymuco are encouraged and can be made by forking the repository, making changes, testing, and submitting a pull request. Detailed instructions on how to contribute can be found in the [How to contribute](https://github.com/pymuco/pymuco/tree/main/doc/CONTRIBUTIONS.md) guide.
+Contributions to Pymuco are encouraged and can be made by forking the repository, making changes, testing, and submitting a pull request. Detailed instructions on how to contribute can be found in the [How to contribute](https://github.com/pymuco/pymuco/tree/main/docs/CONTRIBUTIONS.md) guide.
 
 
 Code of Conduct
