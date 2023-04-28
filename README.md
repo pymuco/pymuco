@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://github.com/pymuco/pymuco/blob/main/doc/_static/pymucologo.png" width="150%">
+<img src="https://github.com/pymuco/pymuco/blob/main/docs/_static/pymucologo.png" width="150%">
 </h1>
 
 [![CI](https://github.com/pymuco/pymuco/actions/workflows/python-app.yml/badge.svg)](https://github.com/pymuco/pymuco/actions/workflows/python-app.yml)
