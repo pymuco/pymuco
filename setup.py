@@ -1,9 +1,12 @@
 from distutils.core import setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name="pymuco",
     packages=["pymuco"],
-    version="1.1B3",
+    version="1.1B4",
     description="A Python Music Computation Library",
     author="German Margon",
     author_email="gmargon@pymuco.org",
@@ -24,4 +27,6 @@ setup(
         "Topic :: Scientific/Engineering :: Mathematics",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
 )
