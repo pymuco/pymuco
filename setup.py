@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name="pymuco",
     packages=["pymuco"],
-    version="1.1B1",
+    version="1.1B3",
     description="A Python Music Computation Library",
     author="German Margon",
     author_email="gmargon@pymuco.org",
