@@ -16,7 +16,7 @@ Purely Pythonic 🐍 Zero dependencies
 - **Website:** https://www.pymuco.org
 - **PyPi:** https://pypi.org/project/pymuco/
 - **Source code:** https://github.com/pymuco/pymuco
-- **Documentation:** https://pymuco.org/doc (WIP)
+- **Documentation:** https://pymuco.readthedocs.io/en/latest/
 - **Bug reports:** https://github.com/pymuco/pymuco/issues 
 - **Discussions** https://github.com/orgs/pymuco/discussions
 
