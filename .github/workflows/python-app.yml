@@ -41,5 +41,3 @@ jobs:
       run: |
         coverage run -m pytest pymuco
         coverage report -m
-        coverage-badge -o coverage.svg
-        sed -i "s#<img src='coverage\.svg'#<img src='$(pwd)/coverage\.svg'#g" README.md
