@@ -3,6 +3,7 @@
 </h1>
 
 [![CI](https://github.com/pymuco/pymuco/actions/workflows/python-app.yml/badge.svg)](https://github.com/pymuco/pymuco/actions/workflows/python-app.yml)
+[![Coverage Status](coverage.svg)](coverage.svg)
 [![Documentation Status](https://readthedocs.org/projects/pymuco/badge/?version=latest)](https://pymuco.readthedocs.io/en/latest/?badge=latest)
 ![PyPI Downloads](https://img.shields.io/pypi/dm/pymuco?color=%2345aaf5&label=PyPi%20Downloads)
 ![Status](https://img.shields.io/pypi/status/pymuco?color=%2345aaf5)
