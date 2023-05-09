@@ -39,4 +39,5 @@ jobs:
         pytest pymuco/test/
     - name: Coverage report
       run: |
-        coverage run -m pytest pymuco/test/
+        coverage run -m pytest pymuco
+        coverage report -m
