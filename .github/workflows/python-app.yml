@@ -39,4 +39,6 @@ jobs:
         pytest pymuco/test/
     - name: Generate coverage report
       run: |
-        pytest --cov=pymuco pymuco
+        pytest --cov=pymuco pymuco --cov-exclude=pymuco/test/
+      env:
+        CI: true
