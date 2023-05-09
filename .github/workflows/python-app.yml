@@ -39,4 +39,4 @@ jobs:
         pytest pymuco/test/
     - name: Generate coverage report
       run: |
-        pytest --cov=pymuco pymuco/test/
+        pytest --cov=pymuco pymuco
