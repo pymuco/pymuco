@@ -39,5 +39,5 @@ jobs:
         pytest pymuco/test/
     - name: Coverage report
       run: |
-        coverage run -m pytest pymuco
-        coverage report -m
+        coverage run --omit="*/test/*" -m pytest
+        coverage report --show-missing
