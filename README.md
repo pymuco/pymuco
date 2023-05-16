@@ -4,12 +4,13 @@
 
 [![CI](https://github.com/pymuco/pymuco/actions/workflows/python-app.yml/badge.svg)](https://github.com/pymuco/pymuco/actions/workflows/python-app.yml)
 [![Documentation Status](https://readthedocs.org/projects/pymuco/badge/?version=latest)](https://pymuco.readthedocs.io/en/latest/?badge=latest)
-![PyPI Downloads](https://img.shields.io/pypi/dm/pymuco?color=%2345aaf5&label=PyPi%20Downloads)
-![Status](https://img.shields.io/pypi/status/pymuco?color=%2345aaf5)
+![PyPI Downloads](https://img.shields.io/pypi/dm/pymuco?color=%232E6AFF&label=PyPi%20Downloads)
+![Status](https://img.shields.io/pypi/status/pymuco?color=%232E6AFF)
+[![Open Source](https://img.shields.io/badge/🌐%20Open%20Source-<COLOR>?style=flat&labelColor=<COLOR>&color=<COLOR>&logo=open-source-initiative&logoColor=white)](https://opensource.org/)
 
 
 
-Pymuco is an open source Python library designed for music programming.  
+Pymuco: A Python Music Computation Library for Musicians and Developers
 
 Purely Pythonic 🐍 Zero dependencies
 
@@ -17,8 +18,9 @@ Purely Pythonic 🐍 Zero dependencies
 - **PyPi:** https://pypi.org/project/pymuco/
 - **Source code:** https://github.com/pymuco/pymuco
 - **Documentation:** https://pymuco.readthedocs.io/en/latest/
-- **Bug reports:** https://github.com/pymuco/pymuco/issues 
-- **Discussions** https://github.com/orgs/pymuco/discussions
+- **Issue tracker:** https://github.com/pymuco/pymuco/issues 
+- **Community** https://github.com/orgs/pymuco/discussions
+- **Report a security vulnerability:** https://github.com/pymuco/pymuco/security/policy
 
 Getting Started
 ---------------

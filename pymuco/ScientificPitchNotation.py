@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+# ------------------------------------------------------------------------------
+# Name:         ScientificPitchNotation.py
+# Purpose:      Pymuco classes
+#
+# Authors:      German Margon
+#
+# Copyright:    Copyright © 2022-2023 German Margon. All rights reserved.
+# License:      BSD 3-Clause License, see LICENSE
+# ------------------------------------------------------------------------------
 import re
 from typing import Union
 
