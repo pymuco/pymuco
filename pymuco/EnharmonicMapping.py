@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+# ------------------------------------------------------------------------------
+# Name:         EnharmonicMapping.py
+# Purpose:      Pymuco classes
+#
+# Authors:      German Margon
+#
+# Copyright:    Copyright © 2022-2023 German Margon. All rights reserved.
+# License:      BSD 3-Clause License, see LICENSE
+# ------------------------------------------------------------------------------
 from MusicData import (
     DOUBLE_FLAT,
     DOUBLE_SHARP,
