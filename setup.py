@@ -6,11 +6,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="pymuco",
     packages=["pymuco"],
-    version="1.1B6",
+    version="1.0.0",
     description="A Python Music Computation Library",
     author="German Margon",
     author_email="gmargon@pymuco.org",
-    url="https://www.pymuco.org/",
+    url="https://pymuco.org/",
     license="BSD-3-Clause",
     classifiers=[
         "Development Status :: 4 - Beta",

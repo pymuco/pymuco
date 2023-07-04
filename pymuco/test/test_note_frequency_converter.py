@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# ------------------------------------------------------------------------------
+# Name:         test_note_frequency_converter.py
+# Purpose:      Pymuco Unit Tests
+#
+# Authors:      German Margon
+#
+# Copyright:    Copyright © 2022-2023 German Margon. All rights reserved.
+# License:      BSD 3-Clause License, see LICENSE
+# ------------------------------------------------------------------------------
 import re
 import unittest
 

@@ -1,20 +1,28 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/pymuco/pymuco/main/docs/_static/pymucologo.png" width="150%">
+<img src="https://raw.githubusercontent.com/pymuco/pymuco/main/docs/_static/pymucologo.png" width="50%">
 </h1>
 
-[![CI](https://github.com/pymuco/pymuco/actions/workflows/python-app.yml/badge.svg)](https://github.com/pymuco/pymuco/actions/workflows/python-app.yml)
-[![Documentation Status](https://readthedocs.org/projects/pymuco/badge/?version=latest)](https://pymuco.readthedocs.io/en/latest/?badge=latest)
-![PyPI Downloads](https://img.shields.io/pypi/dm/pymuco?color=%232E6AFF&label=PyPi%20Downloads)
-![Status](https://img.shields.io/pypi/status/pymuco?color=%232E6AFF)
-[![Open Source](https://img.shields.io/badge/🌐%20Open%20Source-<COLOR>?style=flat&labelColor=<COLOR>&color=<COLOR>&logo=open-source-initiative&logoColor=white)](https://opensource.org/)
-
-
+<p align="center">
+  <a href="https://github.com/pymuco/pymuco/actions/workflows/python-app.yml">
+    <img src="https://github.com/pymuco/pymuco/actions/workflows/python-app.yml/badge.svg" alt="CI" style="background-color:#2E6AFF; color:black;">
+  </a>
+  <a href="https://pymuco.readthedocs.io/en/latest/?badge=latest">
+    <img src="https://readthedocs.org/projects/pymuco/badge/?version=latest" alt="Documentation Status" style="background-color:#2E6AFF; color:black;">
+  </a>
+  <img src="https://img.shields.io/pypi/dm/pymuco?color=brightgreen&label=PyPi" alt="PyPI" style="background-color:#2E6AFF; color:black;">
+  <a href="https://pymuco.org">
+    <img src="https://img.shields.io/badge/status-1.0.0-brightgreen" alt="Status" style="background-color:#2E6AFF; color:black;">
+  </a>
+  <a href="https://opensource.org/">
+    <img src="https://img.shields.io/badge/Open%20Source-%3CCOLOR%3E?style=flat&labelColor=%3CCOLOR%3E&color=%3CCOLOR%3E&logo=open-source-initiative&logoColor=white" alt="Open Source" style="background-color:#2E6AFF; color:black;">
+  </a>
+</p>
 
 Pymuco: A Python Music Computation Library for Musicians and Developers
 
 Purely Pythonic 🐍 Zero dependencies
 
-- **Website:** https://www.pymuco.org
+- **Website:** https://pymuco.org
 - **PyPi:** https://pypi.org/project/pymuco/
 - **Source code:** https://github.com/pymuco/pymuco
 - **Documentation:** https://pymuco.readthedocs.io/en/latest/
