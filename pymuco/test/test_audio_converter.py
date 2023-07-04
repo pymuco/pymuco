@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------------------------
-# Name:         test_audio_donverter.py
+# Name:         test_audio_converter.py
 # Purpose:      Pymuco Unit Tests
 #
 # Authors:      German Margon
