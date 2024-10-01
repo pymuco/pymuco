@@ -10,6 +10,7 @@
 # ------------------------------------------------------------------------------
 import os
 
+from logging_utils import setup_logger
 from AudioConverter import AudioConverter
 
 
@@ -56,6 +57,8 @@ class Player:
     The audio file is removed from the system after playing.
     """
 
+    logger = setup_logger(__name__)
+
     def play(self, sample: AudioConverter):
         """
         Play the audio sample passed as an argument using the appropriate
@@ -82,8 +85,6 @@ class Player:
         file is removed from the system after playing.
 
         - On Linux or macOS, this method uses `aplay` or `afplay` respectively.
-        - On Windows, it uses the `powershell` command with the `Media.SoundPlayer`
-          class to play the audio file.
 
         If the platform is unsupported, this method prints a message and returns.
         """
@@ -96,14 +97,8 @@ class Player:
             elif os.uname().sysname == "Darwin":
                 player = "afplay"
             else:
-                print("Unsupported platform")
+                self.logger.error("Unsupported platform")
                 return
-        elif os.name == "nt":  # Windows
-            player = 'powershell -c (New-Object Media.SoundPlayer "{0}").\
-PlaySync();'
-        else:
-            print("Unsupported platform")
-            return
 
         command = f'{player} "{sample._full_file_path}"'
 
