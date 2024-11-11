@@ -11,7 +11,7 @@
 import re
 from typing import Union
 
-from .MusicData import ACCIDENTALS, NOTE_NAMES
+from MusicData import ACCIDENTALS, NOTE_NAMES
 
 
 class ScientificPitchNotation:
