@@ -11,7 +11,7 @@
   </a>
   <img src="https://img.shields.io/pypi/dm/pymuco?color=brightgreen&label=PyPi" alt="PyPI" style="background-color:#2E6AFF; color:black;">
   <a href="https://pymuco.org">
-    <img src="https://img.shields.io/badge/status-1.0.0-brightgreen" alt="Status" style="background-color:#2E6AFF; color:black;">
+    <img src="https://img.shields.io/badge/status-1.1.2-brightgreen" alt="Status" style="background-color:#2E6AFF; color:black;">
   </a>
   <a href="https://opensource.org/">
     <img src="https://img.shields.io/badge/Open%20Source-%3CCOLOR%3E?style=flat&labelColor=%3CCOLOR%3E&color=%3CCOLOR%3E&logo=open-source-initiative&logoColor=white" alt="Open Source" style="background-color:#2E6AFF; color:black;">
@@ -67,7 +67,7 @@ Pymuco follows the Contributor Covenant Code of Conduct, which sets the standard
 Copyright and License Information
 ---------------------------------
 
-Copyright © 2022-2023 German Margon. All rights reserved.
+Copyright © 2022-2025 German Margon. All rights reserved.
 
 See the [LICENSE](LICENSE) for information, terms & conditions for usage, and a DISCLAIMER OF ALL WARRANTIES.
 
