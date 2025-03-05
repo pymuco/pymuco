@@ -39,7 +39,7 @@ from .Scale import Scale, ScaleData
 from .ScientificPitchNotation import ScientificPitchNotation
 from .Tonality import Tonality
 
-__version__ = "1.1.4"
+__version__ = "1.1.5"
 
 __all__ = [
     "AudioConverter",
