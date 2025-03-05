@@ -2,5 +2,5 @@ sphinx>=7.0.0
 myst-parser>=2.0.0
 sphinx-rtd-theme>=2.0.0
 recommonmark>=0.7.1
-readthedocs-ext>=0.5.3
+readthedocs-sphinx-ext>=2.2.0
 -e . 
