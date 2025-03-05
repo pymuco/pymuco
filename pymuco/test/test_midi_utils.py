@@ -12,8 +12,7 @@
 import re
 import unittest
 
-from MIDIUtils import MIDINoteConverter
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import MIDINoteConverter, ScientificPitchNotation
 
 
 class TestMIDINoteConverter(unittest.TestCase):

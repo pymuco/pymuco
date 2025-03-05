@@ -10,12 +10,12 @@
 # ------------------------------------------------------------------------------
 from enum import Enum
 
-from CircleOfFifths import CircleOfFifths
-from Enharmonic import Enharmonic
-from Interval import IntervalCalculator, IntervalName
-from KeySignature import KeySignature
-from MusicData import DEFAULT_OCTAVE, m
-from ScientificPitchNotation import ScientificPitchNotation
+from .CircleOfFifths import CircleOfFifths
+from .Enharmonic import Enharmonic
+from .Interval import IntervalCalculator, IntervalName
+from .KeySignature import KeySignature
+from .MusicData import DEFAULT_OCTAVE, m
+from .ScientificPitchNotation import ScientificPitchNotation
 
 
 class ChordType(Enum):

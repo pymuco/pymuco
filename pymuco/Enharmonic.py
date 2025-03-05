@@ -8,9 +8,9 @@
 # Copyright:    Copyright © 2022-2023 German Margon. All rights reserved.
 # License:      BSD 3-Clause License, see LICENSE
 # ------------------------------------------------------------------------------
-from EnharmonicMapping import EnharmonicMapping
-from MusicData import DEFAULT_OCTAVE
-from ScientificPitchNotation import ScientificPitchNotation
+from .EnharmonicMapping import EnharmonicMapping
+from .MusicData import DEFAULT_OCTAVE
+from .ScientificPitchNotation import ScientificPitchNotation
 
 
 class Enharmonic:

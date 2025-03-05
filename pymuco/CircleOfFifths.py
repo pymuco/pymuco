@@ -10,10 +10,10 @@
 # ------------------------------------------------------------------------------
 from typing import List, Tuple
 
-from Enharmonic import Enharmonic
-from Interval import IntervalCalculator, IntervalName
-from MusicData import DEFAULT_OCTAVE, FLAT, SHARP, C, D, E, F, G
-from ScientificPitchNotation import ScientificPitchNotation
+from .Enharmonic import Enharmonic
+from .Interval import IntervalCalculator, IntervalName
+from .MusicData import DEFAULT_OCTAVE, FLAT, SHARP, C, D, E, F, G
+from .ScientificPitchNotation import ScientificPitchNotation
 
 
 class CircleOfFifths:

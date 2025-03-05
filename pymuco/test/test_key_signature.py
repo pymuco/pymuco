@@ -11,8 +11,7 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from KeySignature import KeySignature
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import KeySignature, ScientificPitchNotation
 
 
 class TestKeySignature(unittest.TestCase):

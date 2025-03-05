@@ -11,8 +11,7 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from Chord import Chord, ChordType
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import Chord, ChordType, ScientificPitchNotation
 
 
 class TestChordType(unittest.TestCase):

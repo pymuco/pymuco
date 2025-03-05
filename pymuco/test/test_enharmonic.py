@@ -11,9 +11,11 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from Enharmonic import Enharmonic
-from MusicData import DEFAULT_OCTAVE
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import (
+    Enharmonic,
+    DEFAULT_OCTAVE,
+    ScientificPitchNotation
+)
 
 
 class TestEnharmonic(unittest.TestCase):

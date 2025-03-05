@@ -10,10 +10,10 @@
 # ------------------------------------------------------------------------------
 from enum import IntEnum
 
-from Enharmonic import Enharmonic
-from NoteFrequencyConverter import NoteFrequencyConverter
-from NoteMapping import NoteMapping
-from ScientificPitchNotation import ScientificPitchNotation
+from .Enharmonic import Enharmonic
+from .NoteFrequencyConverter import NoteFrequencyConverter
+from .NoteMapping import NoteMapping
+from .ScientificPitchNotation import ScientificPitchNotation
 
 
 class IntervalName(IntEnum):

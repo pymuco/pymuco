@@ -12,8 +12,7 @@
 import re
 import unittest
 
-from NoteFrequencyConverter import NoteFrequencyConverter
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import NoteFrequencyConverter, ScientificPitchNotation
 
 
 class TestNoteFrequencyConverter(unittest.TestCase):

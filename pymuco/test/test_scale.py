@@ -11,8 +11,7 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from Scale import Scale, ScaleData
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import Scale, ScaleData, ScientificPitchNotation
 
 
 class TestScaleData(unittest.TestCase):

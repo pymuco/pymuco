@@ -11,10 +11,13 @@
 # ------------------------------------------------------------------------------
 import unittest
 from unittest.mock import patch, mock_open
-from MidiGenerator import MidiGenerator
-from ScientificPitchNotation import ScientificPitchNotation
-from NoteDuration import NoteDuration
 from typing import List, Tuple
+
+from pymuco import (
+    MidiGenerator,
+    NoteDuration,
+    ScientificPitchNotation
+)
 
 
 class TestMidiGenerator(unittest.TestCase):

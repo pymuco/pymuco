@@ -10,8 +10,8 @@
 # ------------------------------------------------------------------------------
 from typing import List, Tuple
 
-from NoteDuration import NoteDuration
-from ScientificPitchNotation import ScientificPitchNotation
+from .NoteDuration import NoteDuration
+from .ScientificPitchNotation import ScientificPitchNotation
 
 
 class MusicComputationNotation:

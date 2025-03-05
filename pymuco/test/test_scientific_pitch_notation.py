@@ -11,8 +11,13 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from MusicData import ACCIDENTALS, DEFAULT_OCTAVE, NOTE_NAMES, C
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import (
+    ACCIDENTALS,
+    DEFAULT_OCTAVE,
+    NOTE_NAMES,
+    C,
+    ScientificPitchNotation
+)
 
 
 class TestValidPitch(unittest.TestCase):
