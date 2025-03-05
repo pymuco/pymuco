@@ -216,37 +216,3 @@ epub_unzip = False
 
 # Blank short titles go into the parent.
 epub_short_titles = True
-
-# User's Sphinx configurations
-language_user = globals().get('language', None)
-latex_engine_user = globals().get('latex_engine', None)
-latex_elements_user = globals().get('latex_elements', None)
-
-# Remove this once xindy gets installed in Docker image and XINDYOPS
-# env variable is supported
-# https://github.com/rtfd/readthedocs-docker-images/pull/98
-latex_use_xindy = False
-
-chinese = any([
-    language_user in ('zh_CN', 'zh_TW'),
-    project_language in ('zh_CN', 'zh_TW'),
-])
-
-japanese = any([
-    language_user == 'ja',
-    project_language == 'ja',
-])
-
-if chinese:
-    latex_engine = latex_engine_user or 'xelatex'
-
-    latex_elements_rtd = {
-        'preamble': '\\usepackage[UTF8]{ctex}\n',
-    }
-    latex_elements = latex_elements_user or latex_elements_rtd
-elif japanese:
-    latex_engine = latex_engine_user or 'platex'
-
-# Make sure our build directory is always excluded
-exclude_patterns = globals().get('exclude_patterns', [])
-exclude_patterns.extend(['_build'])
