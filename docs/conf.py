@@ -4,7 +4,10 @@ from __future__ import division, print_function, unicode_literals
 
 from datetime import datetime
 
-from recommonmark.parser import CommonMarkParser
+try:
+    from recommonmark.parser import CommonMarkParser
+except ImportError:
+    CommonMarkParser = None
 
 extensions = [
     "sphinx.ext.autodoc",
@@ -16,9 +19,10 @@ extensions = [
 
 templates_path = ['templates', '_templates', '.templates']
 source_suffix = ['.rst', '.md']
-source_parsers = {
-            '.md': CommonMarkParser,
-        }
+if CommonMarkParser:
+    source_parsers = {
+        '.md': CommonMarkParser,
+    }
 master_doc = 'index'
 project = u'pymuco'
 copyright = str(datetime.now().year)
@@ -205,6 +209,17 @@ epub_unzip = False
 
 # Blank short titles go into the parent.
 epub_short_titles = True
+
+# ReadTheDocs specific configuration
+import os
+import sys
+
+# Add the project root directory to the Python path
+sys.path.insert(0, os.path.abspath('..'))
+
+# Only add ReadTheDocs extension if we're on ReadTheDocs
+if os.environ.get('READTHEDOCS', None) == 'True':
+    extensions.append('readthedocs_ext.readthedocs')
 
 
 
