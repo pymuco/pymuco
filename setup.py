@@ -3,9 +3,6 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.in", "r", encoding="utf-8") as fh:
-    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
-
 setup(
     name="pymuco",
     packages=find_packages(),
@@ -15,7 +12,12 @@ setup(
     author_email="gmargon@pymuco.org",
     url="https://pymuco.org/",
     license="BSD-3-Clause",
-    install_requires=requirements,
+    install_requires=[
+        "numpy>=1.19.0",
+        "midiutil>=1.2.1",
+        "sounddevice>=0.4.5",
+        "scipy>=1.7.0",
+    ],
     python_requires=">=3.6",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
