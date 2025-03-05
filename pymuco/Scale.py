@@ -11,13 +11,13 @@
 from enum import Enum
 from typing import List
 
-from CircleOfFifths import CircleOfFifths
-from Enharmonic import Enharmonic
-from KeySignature import KeySignature
-from MusicData import DEFAULT_OCTAVE, FLAT, MAJOR, MINOR, SHARP, A, C
-from NoteMapping import NoteMapping
-from ScientificPitchNotation import ScientificPitchNotation
-from Tonality import Tonality
+from .CircleOfFifths import CircleOfFifths
+from .Enharmonic import Enharmonic
+from .KeySignature import KeySignature
+from .MusicData import DEFAULT_OCTAVE, FLAT, MAJOR, MINOR, SHARP, A, C
+from .NoteMapping import NoteMapping
+from .ScientificPitchNotation import ScientificPitchNotation
+from .Tonality import Tonality
 
 
 class ScaleData(Enum):

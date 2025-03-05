@@ -10,8 +10,8 @@
 # ------------------------------------------------------------------------------
 import os
 
-from logging_utils import setup_logger
-from AudioConverter import AudioConverter
+from .logging_utils import setup_logger
+from .AudioConverter import AudioConverter
 
 
 class Player:

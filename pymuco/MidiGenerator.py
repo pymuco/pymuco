@@ -12,8 +12,8 @@ import logging
 
 from typing import List, Tuple
 
-from logging_utils import setup_logger
-from MIDIUtils import MIDINoteConverter
+from .logging_utils import setup_logger
+from .MIDIUtils import MIDINoteConverter
 
 
 class MidiGenerator:

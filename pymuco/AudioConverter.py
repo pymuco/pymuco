@@ -17,10 +17,10 @@ import tempfile
 import wave
 from typing import List, Tuple, Union
 
-from MusicComputationNotation import MusicComputationNotation
-from NoteDuration import NoteDuration, NoteDurationMapping
-from NoteFrequencyConverter import NoteFrequencyConverter
-from ScientificPitchNotation import ScientificPitchNotation
+from .MusicComputationNotation import MusicComputationNotation
+from .NoteDuration import NoteDuration, NoteDurationMapping
+from .NoteFrequencyConverter import NoteFrequencyConverter
+from .ScientificPitchNotation import ScientificPitchNotation
 
 
 class AudioConverter:

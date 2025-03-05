@@ -8,9 +8,9 @@
 # Copyright:    Copyright © 2022-2023 German Margon. All rights reserved.
 # License:      BSD 3-Clause License, see LICENSE
 # ------------------------------------------------------------------------------
-from Enharmonic import Enharmonic
-from MusicData import SHARP, B, C, E, MusicalAlphabet
-from ScientificPitchNotation import ScientificPitchNotation
+from .Enharmonic import Enharmonic
+from .MusicData import SHARP, B, C, E, MusicalAlphabet
+from .ScientificPitchNotation import ScientificPitchNotation
 
 _NOTE_NAME = MusicalAlphabet.get_note_name()
 

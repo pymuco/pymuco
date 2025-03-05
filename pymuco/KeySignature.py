@@ -8,10 +8,10 @@
 # Copyright:    Copyright © 2022-2023 German Margon. All rights reserved.
 # License:      BSD 3-Clause License, see LICENSE
 # ------------------------------------------------------------------------------
-from CircleOfFifths import CircleOfFifths
-from Enharmonic import Enharmonic
-from MusicData import FLAT, MAJOR, MINOR, SHARP, M, m
-from ScientificPitchNotation import ScientificPitchNotation
+from .CircleOfFifths import CircleOfFifths
+from .Enharmonic import Enharmonic
+from .MusicData import FLAT, MAJOR, MINOR, SHARP, M, m
+from .ScientificPitchNotation import ScientificPitchNotation
 
 
 class KeySignature:
