@@ -11,9 +11,11 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from MusicComputationNotation import MusicComputationNotation
-from NoteDuration import NoteDuration
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import (
+    MusicComputationNotation,
+    NoteDuration,
+    ScientificPitchNotation
+)
 
 
 class TestMusicComputationNotation(unittest.TestCase):

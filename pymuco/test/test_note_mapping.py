@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from NoteMapping import NoteMapping
+from pymuco import NoteMapping, ScientificPitchNotation
 
 
 class TestNoteMapping(unittest.TestCase):

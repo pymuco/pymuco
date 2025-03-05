@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from EnharmonicMapping import EnharmonicMapping
+from pymuco import EnharmonicMapping, ScientificPitchNotation
 
 
 class TestEnharmonicMapping(unittest.TestCase):

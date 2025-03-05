@@ -11,9 +11,15 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from Interval import Interval, IntervalCalculator, IntervalName
-from MusicData import DEFAULT_OCTAVE, C, G
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import (
+    Interval,
+    IntervalCalculator,
+    IntervalName,
+    DEFAULT_OCTAVE,
+    C,
+    G,
+    ScientificPitchNotation
+)
 
 
 class TestIntervalName(unittest.TestCase):

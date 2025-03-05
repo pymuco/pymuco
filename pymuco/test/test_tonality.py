@@ -11,8 +11,7 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from ScientificPitchNotation import ScientificPitchNotation
-from Tonality import Tonality
+from pymuco import Tonality, ScientificPitchNotation
 
 
 class TestTonality(unittest.TestCase):

@@ -14,7 +14,7 @@ import unittest
 import wave
 from unittest.mock import MagicMock
 
-from AudioConverter import AudioConverter
+from pymuco import AudioConverter, ScientificPitchNotation
 
 
 class TestAudioConverter(unittest.TestCase):

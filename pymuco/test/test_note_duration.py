@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from NoteDuration import NoteDuration, NoteDurationMapping
+from pymuco import NoteDuration, NoteDurationMapping
 
 
 class TestNoteDurationMapping(unittest.TestCase):

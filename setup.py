@@ -1,17 +1,22 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+with open("requirements.in", "r", encoding="utf-8") as fh:
+    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+
 setup(
     name="pymuco",
-    packages=["pymuco"],
+    packages=find_packages(),
     version="1.1.2",
     description="A Python Music Computation Library",
     author="German Margon",
     author_email="gmargon@pymuco.org",
     url="https://pymuco.org/",
     license="BSD-3-Clause",
+    install_requires=requirements,
+    python_requires=">=3.6",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",

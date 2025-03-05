@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------------
 import unittest
 
-from CircleOfFifths import CircleOfFifths
+from pymuco import CircleOfFifths, ScientificPitchNotation
 
 
 class TestCircleOfFifths(unittest.TestCase):

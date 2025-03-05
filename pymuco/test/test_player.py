@@ -12,11 +12,13 @@
 import unittest
 from unittest.mock import Mock
 
-from AudioConverter import AudioConverter
-from MusicComputationNotation import MusicComputationNotation
-from NoteDuration import NoteDuration
-from Player import Player
-from ScientificPitchNotation import ScientificPitchNotation
+from pymuco import (
+    Player,
+    AudioConverter,
+    MusicComputationNotation,
+    NoteDuration,
+    ScientificPitchNotation
+)
 
 
 class TestPlayer(unittest.TestCase):
