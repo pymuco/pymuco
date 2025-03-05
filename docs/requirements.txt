@@ -4,16 +4,12 @@
 #
 #    pip-compile docs/requirements.in
 #
--e file:///Users/germanmargon/Code/pymuco
-    # via -r docs/requirements.in
 alabaster==0.7.13
     # via sphinx
 babel==2.12.1
     # via sphinx
 certifi==2023.7.22
     # via requests
-cffi==1.17.1
-    # via sounddevice
 charset-normalizer==3.3.2
     # via requests
 commonmark==0.9.1
@@ -45,21 +41,14 @@ mdit-py-plugins==0.3.5
     # via myst-parser
 mdurl==0.1.2
     # via markdown-it-py
-midiutil==1.2.1
-    # via pymuco
 myst-parser==1.0.0
     # via -r docs/requirements.in
 numpy==1.26.4
-    # via
-    #   -r docs/requirements.in
-    #   pymuco
-    #   scipy
+    # via -r docs/requirements.in
 packaging==24.0
     # via
     #   readthedocs-sphinx-ext
     #   sphinx
-pycparser==2.22
-    # via cffi
 pygments==2.17.2
     # via sphinx
 pyyaml==6.0.2
@@ -72,12 +61,8 @@ requests==2.31.0
     # via
     #   readthedocs-sphinx-ext
     #   sphinx
-scipy==1.13.1
-    # via pymuco
 snowballstemmer==2.2.0
     # via sphinx
-sounddevice==0.5.1
-    # via pymuco
 sphinx==6.2.1
     # via
     #   -r docs/requirements.in
