@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="pymuco",
     packages=find_packages(),
-    version="1.1.5",
+    version="1.1.6",
     description="A Python Music Computation Library",
     author="German Margon",
     author_email="gmargon@pymuco.org",
